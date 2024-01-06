@@ -1,0 +1,54 @@
+1) - Le répertoire courant :
+	pwd
+   - Quels sont les fichiers et les répertoires qu’il contient :
+	ls ou ls -a
+
+2) commdande pour se déplacer: 
+	cd ENT-yassafer
+3) Créez un répertoire BPI dans ENT-login puis un répertoire TP1 dans BPI:
+	mkdir BPI
+	cd BPI
+	mkdir TP1
+
+4)Téléchargez l’archive TP1_src.zip dans le répertoire BPI et décompressez la à l’aide de la commande unzip :
+	unzip TP1_src.zip
+
+5)Copiez le fichier TP1_src/bonjour.c dans le répertoire TP1 :
+	cp ./TP1_src/bonjour.c ./TP1
+
+6)Affichez sur la console le contenu du fichier bonjour.c :
+	cat bonjour.c
+
+7)- Compilez le fichier bonjour.c :
+	gcc -c -std=c18 -Wpedantic -Wall -Wextra -Wconversion -Wwrite-strings -Werror -Wfatal-errors bonjour.c
+
+  - puis réalisez l’édition des liens :
+	gcc bonjour.o
+
+8) - Quel est le nom de l’exécutable créé :
+	a.out
+
+  - Rennomer le en bonjour :
+	mv a.out bonjour
+
+  - Comment peut-on spécifier le nom de l’exécutable à créer lors de la compilation :
+	gcc bonjour.o -o bonjour
+
+
+9) Quels sont les droits associés au fichier exécutable ?
+	ls -l bonjour
+
+10) - Exécutez le programme bonjour:
+	./bonjour
+
+     -Que se passe-t-il? il affiche:
+	Bienvenue en L1.
+
+11) Supprimez le fichier bonjour.o créé lors de la compilation :
+	rm bonjour.o
+
+12) Supprimez le répertoire TP1_src créé lors de la décompression de l’archive TP1_src.zip :
+	rm -r TP1_src
+
+
+
