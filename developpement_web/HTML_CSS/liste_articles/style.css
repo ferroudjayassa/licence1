@@ -1,0 +1,55 @@
+h1, h2 {
+    font-family : Arial, sans-serif;
+}
+
+h1 {
+  text-align : center;
+  color: rgb(0, 50, 200);
+  text-decoration : underline;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+.desc{
+  text-indent : 2em;
+}
+
+.list-articles {
+  width: 50%;
+  margin: auto;
+}
+
+.article-pair, .article-impair {
+  margin-bottom:16px;
+}
+
+.article-pair {
+  background-color : rgb(250,170,170);
+}
+
+.article-impair{
+  background-color : rgb(160,190,230)
+}
+
+.titre-article {
+  color: rgb(200 50 0);
+  background-color: rgb(237 239 240);;
+  display: inline-block;
+  margin: 0;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  margin-right: 5px;
+  padding: 3px;
+}
+
+.desc-article {
+  display: inline;
+  padding: 2px;
+}
+
+
+
+
+ 

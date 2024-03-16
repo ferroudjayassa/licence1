@@ -1,0 +1,77 @@
+body {
+margin : 5px;
+  background-image : url("tableau.jpg");
+}
+
+table {
+  width : 400px;
+  height : 400px;
+  margin-top : 100px;
+  margin-bottom : 100px;
+  margin-left :auto;
+  margin-right : auto;
+  border-collapse : collapse;
+  border : 3px ;
+  border-color : lightgray ;
+  font-weight : bold;
+  font-size : 25px;
+  text-align : center;
+}
+
+thead {
+    border : 2px inset;
+}
+
+th, td {
+  border : 2px ridge;
+}
+th {
+  background-color : white;
+}
+
+.rose {
+  background-color: #fd79a8;
+}
+
+.rouge {
+  background-color: rgb(214,48,49);
+}
+
+.blanc {
+  background-color: white;
+}
+
+.blanc1 {
+  background-color: white;
+  text-align : right;
+}
+
+.jaune {
+  background-color: white;
+}
+.blanc:hover {
+  background-color: yellow;
+}
+.rouge:hover {
+  background-color: yellow;
+}
+.rose:hover {
+  background-color: yellow;
+}
+
+
+
+caption  {
+  background-color : black;
+  color : white;
+  font-family : Courrier;
+  border-left : 3px ridge;
+  border-right : 3px ridge;
+  border-top : 3px ridge;
+
+}
+
+caption a {
+  color : red;
+  font-variant : small-caps;
+}
